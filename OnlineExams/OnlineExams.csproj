@@ -221,6 +221,7 @@
     <Content Include="Content\Website\Script\ScrollToPlugin.min.js" />
     <Content Include="Content\Website\Script\TimelineMax.min.js" />
     <Content Include="Content\Website\Script\TweenMax.min.js" />
+    <Content Include="DBScript\InitialDbScript.sql" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
