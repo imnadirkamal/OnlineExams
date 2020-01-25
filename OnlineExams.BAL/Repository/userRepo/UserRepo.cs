@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OnlineExams.BAL.Models;
 using System.Data;
-using DayCareManager.DAL;
+using OnlineExams.DAL;
 
 namespace OnlineExams.BAL.Repository
 {

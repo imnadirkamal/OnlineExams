@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Configuration;
 using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace DayCareManager.DAL
+namespace OnlineExams.DAL
 {
     public class cDBServices
     {
@@ -40,7 +41,7 @@ namespace DayCareManager.DAL
                 GetInstance();
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
