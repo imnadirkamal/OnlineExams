@@ -1,0 +1,22 @@
+﻿@model OnlineExams.BAL.Models.UserInfo
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <div>
+        <form id="frm-Admin-Login" method="post">
+            @Html.TextBoxFor(x => x.Username)
+            @Html.PasswordFor(x => x.Password)
+            <input type="submit" value="Login" />
+        </form>
+    </div>
+</body>
+</html>
