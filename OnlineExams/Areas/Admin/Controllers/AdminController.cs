@@ -9,7 +9,7 @@ using OnlineExams.BAL.Models;
 
 namespace OnlineExams.Areas.Admin.Controllers
 {
-    
+
     public class AdminController : Controller
     {
         IUserRepo _userRepo;
@@ -29,10 +29,17 @@ namespace OnlineExams.Areas.Admin.Controllers
         [HttpPost]
         public ActionResult Login(UserInfo _userInfo)
         {
-            DataSet dt = _userRepo.UserLoginAuthentication(_userInfo);
-
-
-            return RedirectToAction("AdminDashboard","Admin");
+            DataSet ds = _userRepo.UserLoginAuthentication(_userInfo);
+            if (ds != null)
+            {
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+                    Session["UserId"] = ds.Tables[0].Rows[0]["UserID"].ToString();
+                    Session["Username"] = ds.Tables[0].Rows[0]["username"].ToString();
+                    Session["UserGroup"] = ds.Tables[0].Rows[0]["UserGroup"].ToString();
+                }
+            }
+            return RedirectToAction("AdminDashboard", "Admin");
         }
         public ActionResult AdminDashboard()
         {
