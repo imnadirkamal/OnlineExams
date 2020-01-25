@@ -31,6 +31,11 @@ namespace OnlineExams.Areas.Admin.Controllers
         {
             DataSet dt = _userRepo.UserLoginAuthentication(_userInfo);
 
+
+            return RedirectToAction("AdminDashboard","Admin");
+        }
+        public ActionResult AdminDashboard()
+        {
             return View();
         }
     }

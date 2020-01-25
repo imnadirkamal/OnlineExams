@@ -94,6 +94,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Admin\AdminCss\bootstrap.min.css" />
+    <Content Include="Content\Admin\AdminCss\cs-skin-elastic.css" />
+    <Content Include="Content\Admin\AdminCss\flag-icon.min.css" />
+    <Content Include="Content\Admin\AdminCss\font-awesome.min.css" />
+    <Content Include="Content\Admin\AdminCss\jqvmap.min.css" />
+    <Content Include="Content\Admin\AdminCss\style.css" />
+    <Content Include="Content\Admin\AdminCss\themify-icons.css" />
+    <Content Include="Content\Admin\AdminScript\bootstrap.min.js" />
+    <Content Include="Content\Admin\AdminScript\Chart.bundle.min.js" />
+    <Content Include="Content\Admin\AdminScript\dashboard.js" />
+    <Content Include="Content\Admin\AdminScript\jquery.min.js" />
+    <Content Include="Content\Admin\AdminScript\jquery.vmap.min.js" />
+    <Content Include="Content\Admin\AdminScript\jquery.vmap.sampledata.js" />
+    <Content Include="Content\Admin\AdminScript\jquery.vmap.world.js" />
+    <Content Include="Content\Admin\AdminScript\main.js" />
+    <Content Include="Content\Admin\AdminScript\popper.min.js" />
+    <Content Include="Content\Admin\AdminScript\widgets.js" />
+    <Content Include="Content\Admin\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Admin\images\.gitignore" />
+    <Content Include="Content\Admin\images\admin.jpg" />
+    <Content Include="Content\Admin\images\avatar\1.jpg" />
+    <Content Include="Content\Admin\images\avatar\2.jpg" />
+    <Content Include="Content\Admin\images\avatar\3.jpg" />
+    <Content Include="Content\Admin\images\avatar\4.jpg" />
+    <Content Include="Content\Admin\images\avatar\5.jpg" />
+    <Content Include="Content\Admin\images\avatar\6.jpg" />
+    <Content Include="Content\Admin\images\logo.png" />
+    <Content Include="Content\Admin\images\logo2.png" />
+    <Content Include="Content\Admin\images\placeholder.png" />
+    <Content Include="Content\Admin\images\twitter_corner_black.png" />
+    <Content Include="Content\Admin\images\twitter_corner_blue.png" />
     <Content Include="Content\Website\Css\animate.css" />
     <Content Include="Content\Website\Css\bootstrap.min.css" />
     <Content Include="Content\Website\Css\font-awesome.min.css" />
@@ -212,6 +243,15 @@
     <Content Include="Content\Website\fonts\FontAwesome.otf" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Admin\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\AdminDashboard.cshtml" />
+    <Content Include="Content\Admin\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\Admin\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\Admin\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\Admin\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\Admin\fonts\FontAwesome.otf" />
+    <Content Include="Content\Admin\fonts\themify.ttf" />
+    <Content Include="Content\Admin\fonts\themify.woff" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_WebsiteMaster.cshtml" />
     <Content Include="Views\Website\Home.cshtml" />
@@ -225,7 +265,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
