@@ -232,6 +232,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\SubAdmin\Controllers\StudentController.cs" />
     <Compile Include="Areas\SubAdmin\Controllers\SubAdminController.cs" />
     <Compile Include="Areas\SubAdmin\SubAdminAreaRegistration.cs" />
     <Compile Include="Controllers\WebsiteController.cs" />
@@ -261,6 +262,7 @@
     <Content Include="Areas\SubAdmin\Views\web.config" />
     <Content Include="Areas\SubAdmin\Views\SubAdmin\SubAdminLogin.cshtml" />
     <Content Include="Areas\SubAdmin\Views\SubAdmin\SubAdminDashboard.cshtml" />
+    <Content Include="Areas\SubAdmin\Views\Student\Student.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_WebsiteMaster.cshtml" />
     <Content Include="Views\Website\Home.cshtml" />
