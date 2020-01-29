@@ -47,5 +47,16 @@ namespace OnlineExams.Areas.SubAdmin.Controllers
         {
             return View();
         }
+        #region Questions
+        public ActionResult Subjects()
+        {
+            return View();
+        }
+        public ActionResult CreateSubject()
+        {
+            return View();
+        }
+        #endregion
+
     }
 }

@@ -261,6 +261,8 @@
     <Content Include="Areas\SubAdmin\Views\web.config" />
     <Content Include="Areas\SubAdmin\Views\SubAdmin\SubAdminLogin.cshtml" />
     <Content Include="Areas\SubAdmin\Views\SubAdmin\SubAdminDashboard.cshtml" />
+    <Content Include="Areas\SubAdmin\Views\SubAdmin\Subjects.cshtml" />
+    <Content Include="Areas\SubAdmin\Views\SubAdmin\CreateSubject.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_WebsiteMaster.cshtml" />
     <Content Include="Views\Website\Home.cshtml" />

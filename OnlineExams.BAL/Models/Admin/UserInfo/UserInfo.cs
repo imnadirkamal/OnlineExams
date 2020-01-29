@@ -19,5 +19,6 @@ namespace OnlineExams.BAL.Models
         public int? UpdatedBy { get; set; }
         public DateTime UpdatedOn { get; set; }
         public int? Status { get; set; }
+        public int Test2 { get; set; }
     }
 }

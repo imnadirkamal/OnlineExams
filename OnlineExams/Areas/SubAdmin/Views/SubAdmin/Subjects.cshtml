@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Subjects";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-6">
+                        <strong class="card-title">Subjects</strong>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("CreateSubject","SubAdmin",new { area = "SubAdmin"})'"><i class="fa fa-plus"></i>&nbsp; Add Subject</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">S.No.</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mdo</td>
+                            <td>
+                                <input type="button" value="Edit" class="btn btn-secondary btn-sm" />
+                                <input type="button" value="Delete" class="btn btn-danger btn-sm" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>fat</td>
+                            <td>
+                                <input type="button" value="Edit" class="btn btn-secondary btn-sm" />
+                                <input type="button" value="Delete" class="btn btn-danger btn-sm" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry the Bird</td>
+                            <td>Fat</td>
+                            <td>twitter</td>
+                            <td>
+                                <input type="button" value="Edit" class="btn btn-secondary btn-sm" />
+                                <input type="button" value="Delete" class="btn btn-danger btn-sm" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
