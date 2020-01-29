@@ -12,6 +12,7 @@ namespace OnlineExams.Controllers
         public ActionResult Home()
         {
             return View();
+
         }
     }
 }
