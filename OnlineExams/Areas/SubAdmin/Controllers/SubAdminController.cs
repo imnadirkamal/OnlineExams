@@ -54,6 +54,7 @@ namespace OnlineExams.Areas.SubAdmin.Controllers
         }
         public ActionResult CreateSubject()
         {
+            
             return View();
         }
         #endregion
