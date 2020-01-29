@@ -125,6 +125,9 @@
     <Content Include="Content\Admin\images\placeholder.png" />
     <Content Include="Content\Admin\images\twitter_corner_black.png" />
     <Content Include="Content\Admin\images\twitter_corner_blue.png" />
+    <Content Include="Content\SubAdmin\SubAdminCSS\main.css" />
+    <Content Include="Content\SubAdmin\SubAdminCSS\util.css" />
+    <Content Include="Content\SubAdmin\SubAdminJS\main.js" />
     <Content Include="Content\Website\Css\animate.css" />
     <Content Include="Content\Website\Css\bootstrap.min.css" />
     <Content Include="Content\Website\Css\font-awesome.min.css" />
@@ -229,6 +232,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\SubAdmin\Controllers\SubAdminController.cs" />
+    <Compile Include="Areas\SubAdmin\SubAdminAreaRegistration.cs" />
     <Compile Include="Controllers\WebsiteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -253,6 +258,9 @@
     <Content Include="Content\Admin\fonts\FontAwesome.otf" />
     <Content Include="Content\Admin\fonts\themify.ttf" />
     <Content Include="Content\Admin\fonts\themify.woff" />
+    <Content Include="Areas\SubAdmin\Views\web.config" />
+    <Content Include="Areas\SubAdmin\Views\SubAdmin\SubAdminLogin.cshtml" />
+    <Content Include="Areas\SubAdmin\Views\SubAdmin\SubAdminDashboard.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_WebsiteMaster.cshtml" />
     <Content Include="Views\Website\Home.cshtml" />
@@ -266,6 +274,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\SubAdmin\Models\" />
+    <Folder Include="Areas\SubAdmin\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
